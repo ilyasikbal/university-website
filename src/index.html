@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+        <title>Uni Search</title>
+        <link rel="stylesheet" href="index.css">
+
+        <!--FONT LINK SECTION-->
+        <!--Main title-->
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fredoka+One&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+        <header>
+            
+            <!--NAVIGATION-->
+            <ul id="nav_bar">
+                <li class="nav_data"><a href="index.html">Home</a></li>
+                <li class="nav_data"><a href="notes.html">Note-Taking</a></li>
+            </ul>
+
+            <img src="https://reelantagonist.files.wordpress.com/2013/06/monsters_university_header.jpg?w=1200" id="logo">
+
+        </header>
+        
+        <article>
+            <!--MAIN TITLE-->
+            <div class="main_title">
+                <h1>DISCOVER ALL THING ABOUT UNIVERSITY</h1>
+            </div>
+
+            <!--LIST IMAGE OF UNIVERSITY (Responsive images)-->
+            <h3>~PREVIEW OF UNIVERSITIES~</h3>
+            <div class="uni_images">
+                <img src="https://i.pinimg.com/736x/26/6c/44/266c4438ed13cec447a2e3481b1680ea.jpg" style="width: 100%;">
+                <div class="container">
+                    <p class="container_text">University Of Oxford</p>
+                </div>
+            </div>
+            <div class="uni_images">
+                <img src="https://www.worldatlas.com/r/w1200/upload/44/3c/e3/shutterstock-506462971.jpg" style="width: 100%;">
+                <div class="container">
+                    <p class="container_text">University Of Edinburgh</p>
+                </div>
+            </div>
+            <div class="uni_images">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/UMIST_Sackville_Street_Building.jpg/440px-UMIST_Sackville_Street_Building.jpg" style="width: 100%;">
+                <div class="container">
+                    <p class="container_text">University Of Manchester</p>
+                </div>
+            </div>
+            <div class="uni_images">
+                <img src="https://headtopics.com/images/2021/9/2/msianinsight/utp-is-malaysia-s-top-private-varsity-second-overall-in-times-higher-education-ranking-the-malays-1433327730968305665.webp" style="width: 100%;">
+                <div class="container">
+                    <p class="container_text">Universiti Teknologi Petronas</p>
+                </div>
+            </div>
+            <div class="uni_images">
+                <img src="http://mma.prnasia.com/media2/1448614/radical_curriculum.jpg?p=medium600" style="width: 100%;">
+                <div class="container">
+                    <p class="container_text">Tailor's University</p>
+                </div>
+            </div><div class="uni_images">
+                <img src="https://apru.org/wp-content/uploads/2021/12/Universiti-Malaya.jpg" style="width: 100%;">
+                <div class="container">
+                    <p class="container_text">Universiti Malaya</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!--MAIN TITLE FOR FORM-->
+            <div class="title-1" align="center">
+                <h2 id="title_form">Enter the name of the country and the type of university you want to search for</h2>
+                <hr>
+                <br>
+                <br>
+            </div>  
+
+            <!--MAIN FORM-->
+            <div align="center">
+                <div class="form_box" align="center">
+                    <label>Type of University: </label>
+                        <select id="uni_input">
+                            <option value="university">University</option>
+                            <option value="universiti">Universiti</option>
+                            <option value="college">College</option>
+                            <option value="polytechnic">Polytechnic</option>>
+                            <option value="select" selected>Please Choose Uni Type</option>
+                        </select><br><br>
+                    <label class="one">Country: </label>
+                    <input id="country_input" placeholder="e.g Malaysia"><br><br>
+                <button class="submit1 submit2" onclick="buttonClicked()">Submit</button>
+                <script src = "main.js"></script>
+            </div>
+
+            <!--MAIN TITLE FOR RESULTS OF THE API SEARCHING-->
+            <div class="title-2" align="center">
+                <h2 id="uni_title_list">[University  List]</h2>
+                <br>
+                <br>
+            </div>  
+        
+            <!--TABLE FOR RESULTS THAT HAVE BEEN TAKEN FROM MAIN.JS-->
+            <div align="center">
+                <div class="cover-box">
+                    <table>
+                        <tr class="top">
+                            <th><strong>UNIVERSITY NAME</strong></th>
+                            <th><strong>UNIVERSITY LINK</strong></th>
+                        </tr>
+            
+                        <tr>
+                            <td class="uni1st">-</td>
+                            <td class="uniurl1st">-</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="uni2nd">-</td>
+                            <td class="uniurl2nd">-</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="uni3rd">-</td>
+                            <td class="uniurl3rd">-</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="uni4th">-</td>
+                            <td class="uniurl4th">-</td>
+                        </tr>
+
+                        <tr>
+                            <td class="uni5th">-</td>
+                            <td class="uniurl5th">-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>        
+        </article>
+        
+    </body>
+</html>

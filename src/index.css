@@ -1,0 +1,179 @@
+/**BODY**/
+body{
+  margin: 0px;
+  background-color: #D9EFF6 ;
+}
+
+/**HEADER CONTENT**/
+
+/**CCS NAV_BAR**/
+#nav_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2689A6;
+}
+
+.nav_data{
+  float: left;
+  font-family: 'Patua One', cursive;
+}
+
+.nav_data a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_data:hover{
+  background-color: #47B7D8;
+}
+/**END OF CCS NAV_BAR**/
+/**END OF HEADER**/
+
+
+
+/**ARTICLE CONTENT**/
+
+/**MAIN TITLE**/
+.main_title{
+  font-family: 'Bungee Shade', cursive;
+  padding-left: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #12427F;
+  background-color: #9FB7C8;
+  border-radius: 40px;
+}
+
+/**LOGO**/
+#logo{
+  width: 100%;
+  height: 50%;
+}
+
+/**LIST OF UNIVERSITY IMAGES**/
+div.uni_images{
+  margin: 10px;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline-block;
+  margin-left: 90px;
+}
+
+div.container{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #2CDDDD;
+}
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Carter One', cursive;
+  color: #0B2B42 ;
+}
+
+/**TEXT IN UNIVERSITY CONTAINER IMAGES**/
+.container_text{
+  font-family: 'Staatliches', cursive;
+}
+
+/**TITLE FOR FORM**/
+#title_form{
+  color: #54A6AB;
+  font-family: 'Vast Shadow', cursive;
+}
+
+hr{
+  border: solid #193334;
+}
+
+/**SELECT FORM**/
+.form_box{
+      background-color: #84E1EE;
+      padding:40px;
+      width: 500px;
+      height: 170px;
+      border-radius: 50px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      margin-bottom: 30px;
+      font-family: 'Fugaz One', cursive;
+      font-size: 25px;
+}
+
+select{
+  border-radius: 10px;
+  border: solid 2px #195D69;
+}
+
+#country_input{
+  border-radius: 15px;
+  border: solid 2px #195D69;
+}
+
+/**SUMBIT BUTTON**/
+.submit1 {
+  background-color: #D1F7FC;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.submit2 {
+  background-color: #D1F7FC; 
+  color: black; 
+  border: 2px solid #D1F7FC;
+}
+
+.submit1:hover {
+  background-color: #1B91A2;
+  border: 2px solid #1B91A2;
+  color: white;
+}
+
+#uni_title_list{
+  font-family: 'Stardos Stencil', cursive;
+  color: #2B4647;       
+}
+
+table,th,td{
+  border: 2px solid;
+}
+
+table{
+  background-color: #F2F7F7;
+      padding:20px;
+      width: 100px;
+      height: 50px;
+      border-radius: 50px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      margin-bottom: 30px;
+      font-family: 'Fugaz One', cursive;
+      font-size: 23px;
+}
+
+th{
+  background-color: #98F2F6;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+td{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #CEF8FA;
+}
